@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(135deg, #b3f1ff, #f5c2e7);
+}
+.new{
+    text-align: center;
+}
+.all{
+    display: flex;
+    background-color: white;
+    padding: 40px;
+    margin: 10px 40px 30px 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.one , .three{
+    flex: 1;
+    margin: 20px;
+    min-width: 200px;
+    text-align: left;
+}
+.three{
+    padding: 0px 10px 10px 10px;
+}
+.two{
+    display:inline-block;
+    
+}
+
+footer{
+    background-color: black;
+    padding: 8px;
+    color: white;
+    margin: 15px 40px 19px 40px;
+    border-radius: 10px;
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
